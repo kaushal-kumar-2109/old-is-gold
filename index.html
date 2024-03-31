@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    min-height:2cm;
+    height: 2cm;
+    background-color: white;
+    display: flex;
+    margin-top: 0;
+    padding: 20px;
+    border-bottom: double;
+    border-width: 10px;
+    border-bottom-right-radius: 50%;
+    border-color: black;
+    width: 100%;
+    position:fixed;
+}
+.main img{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-color: black;
+    border-style:groove;
+}
+h1{
+    background: transparent;
+    color: black;
+    font-family: cursive;
+}
+@media(width<=417px) {
+    *{
+        background-color: black;
+        margin: 0;
+        padding: 0;
+    }
+    .mainsmall{
+    height: 20px;
+    min-height: 20px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    border-bottom: double;
+    border-width: 10px;
+    border-bottom-right-radius: 50%;
+    border-color: black;
+    width: 100%;
+    position:fixed;
+    }
+    .mainsmall img{
+    height: 50px;
+    width: 50px;
+    border-width: 2px;
+    border-color: black;
+    border-style:groove;
+    }
+    .name{
+    background: transparent;
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+    }
+}
+
+.nav{
+    background:transparent;
+    height:10cm;
+    margin-top: 2cm;
+    position: fixed;
+    width:3cm;
+}
+.commonbut{
+    background-color:blue;
+    height: 1cm;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 2cm;
+    border-top-right-radius: 20px;
+    border-width: 4px;
+    border-color:white;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-style: groove;
+    margin-top: 3cm;
+    position:fixed;
+}
+.commonbut p{
+    background:transparent;
+}
+.catagory{
+    margin-top:5cm;
+}
+.feedback{
+    margin-top: 7cm;
+}
+.commonbut:hover{
+    width: 2.5cm;
+    background-color: rgb(57, 57, 176);
+}
+.contain{
+   
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width:100%;
+}
+.movie{
+    height: 3cm;
+    width: 5cm;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 3cm;
+    border-width: 2px;
+    border-style: groove;
+    border-color: white;
+    justify-content: space-between;
+}
+.tag1{
+    
+    background-size: cover;
+}
+.movie:hover{
+    height: 2.6cm;
+    width: 4.6cm;
+}
+.moviename:hover{
+    width:4.5cm ;
+}
+.moviename{
+    height: 1cm;
+    width: 5cm;
+    border-width: 2px;
+    border-style: groove;
+    border-color: white;
+    margin-top: 3cm;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    z-index: 1;
+}
+@media(width<=417px) {
+    .contain{
+        width: 417px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .commonbut{
+        background-color:blue;
+        height: o.5cm;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 1.3cm;
+        border-top-right-radius: 20px;
+        border-width: 4px;
+        border-color:white;
+        border-top-width: 0;
+        border-left-width: 0;
+        border-style: groove;
+        margin-top: 3cm;
+        position:fixed;
+    }
+    .commonbut p{
+    background:transparent;
+    font-size: 10px;
+    }
+    .catagory{
+        margin-top:5cm;
+    }
+    .feedback{
+        margin-top: 7cm;
+    }
+    .commonbut:hover{
+        width: 2.5cm;
+        background-color: rgb(57, 57, 176);
+    }
+    .movie{
+        height: 2cm;
+        width: 3.5cm;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 3cm;
+        border-width: 2px;
+        border-style: groove;
+        border-color: white;
+        justify-content: space-between;
+    }
+    .movie:hover{
+        height: 1.6cm;
+        width: 3cm;
+    }
+    .moviename{
+        height: 0.5cm;
+        width:100%;
+        border-width: 2px;
+        border-style: groove;
+        border-color: white;
+        color: white;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
+.without{
+    width: 0.5cm;
+}
+.without p{
+    background:transparent;
+    color: black;
+    font-size:0.3px;
+}
+.suboption{
+    margin-top: 8cm;
+    width: 2.5cm;
+     background-color:rgb(198, 172, 172);
+}
+.suboption p{
+    background-color: black;
+    border-width: 2px;
+    border-color:white;
+    border-style: groove;
+    color:white;
+    margin-left: 4px;
+}
+.contain a{
+    background: transparent;
+}
+</style>
+<body>
+</body>
+<div class="main  mainsmall">
+    <img src="https://github.com/kaushal-kumar-2109/photos/blob/main/depositphotos_430643724-stock-illustration-letter-logo-colorful-splash-background.jpg?raw=true">
+    <h1 class="name" style="margin-left: 25px;">Filmanimal..tv</h1>
+</div>
+<div class="nav">
+    <div class="commonbut home"><p class="tag">Home</p></div>
+    <a href="https://6607a1ff773f52a7555ea28f--inspiring-lily-50a879.netlify.app/"style="background: transparent;"><div class="commonbut catagory"><p class="tag">Feedback</p></div></a>
+</div>
+
+
+<div class="contain">
+    <a href="" ><div class="movie tag1" style="background-image: url();">
+        <div class="moviename">
+            <p>...................</p>
+        </div>
+    </div></a>
+    <a href=""><div class="movie  tag1" style="background-image: url();">
+        <div class="moviename">
+            <p>..................</p>
+        </div>
+    </div></a>
+
+</div>
+</html>

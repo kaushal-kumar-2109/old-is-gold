@@ -242,6 +242,84 @@ h1{
 .contain a{
     background: transparent;
 }
+
+.animation{
+    height: 0px;
+    width: 0px;
+    position:fixed;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    animation-delay: 10s;
+    animation: motion;
+    animation-duration: 8s;
+    animation-iteration-count: initial;
+    overflow: hidden;
+}
+.animation h1{
+    height: 0px;
+    width: 0px;
+    margin-top: 5cm;
+    animation: motion2;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+}
+@keyframes motion2 {
+    0%{
+        margin-top: 7.5cm;
+        color: blue;
+    }
+    25%{
+        margin-top: 6cm;
+        color: rgb(8, 159, 235);
+    }
+    50%{
+        margin-top: 4.5cm;
+        color: rgb(10, 184, 160);
+    }
+    75%{
+        margin-top: 3cm;
+        color: rgb(21, 201, 93);
+    }
+    100%{
+        margin-top: 1.5cm;
+        color: rgb(126, 245, 46);
+    }
+}
+
+@keyframes motion {
+    0%{
+        height: 100%;
+        width: 100%;
+        background-image: url(https://github.com/kaushal-kumar-2109/photos/blob/main/wepik-export-20240331091153sFZw.jpeg?raw=true);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%{
+        background-image: url(https://github.com/kaushal-kumar-2109/photos/blob/main/wepik-export-20240331091153sFZw.jpeg?raw=true);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(https://github.com/kaushal-kumar-2109/photos/blob/main/wepik-export-20240331091153sFZw.jpeg?raw=true);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        background-image: url(https://github.com/kaushal-kumar-2109/photos/blob/main/wepik-export-20240331091153sFZw.jpeg?raw=true);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        height: 0;
+        background-image:url(https://github.com/kaushal-kumar-2109/photos/blob/main/wepik-export-20240331091153sFZw.jpeg?raw=true) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 0;
+        overflow: hidden;
+    }
+}
+
 </style>
 <body>
 </body>
@@ -249,11 +327,16 @@ h1{
     <img src="https://github.com/kaushal-kumar-2109/photos/blob/main/depositphotos_430643724-stock-illustration-letter-logo-colorful-splash-background.jpg?raw=true">
     <h1 class="name" style="margin-left: 25px;">Filmanimal..tv</h1>
 </div>
+
+<div class="animation">
+    <h1>WELCOME</h1>
+</div>
+
+
 <div class="nav">
     <div class="commonbut home"><p class="tag">Home</p></div>
     <a href="https://6607a1ff773f52a7555ea28f--inspiring-lily-50a879.netlify.app/"style="background: transparent;"><div class="commonbut catagory"><p class="tag">Feedback</p></div></a>
 </div>
-
 
 <div class="contain">
     <a href="" ><div class="movie tag1" style="background-image: url();">
